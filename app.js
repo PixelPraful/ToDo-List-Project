@@ -9,6 +9,6 @@ app.get("/", (req, res) => {
    res.render("index"); 
 });
     
-app.listen(process.env.PORT, process.env.IP, () => {
-   console.log("Server Started"); 
+app.listen(3000, process.env.IP, () => {
+   console.log("Server Started on Port 3000"); 
 });
